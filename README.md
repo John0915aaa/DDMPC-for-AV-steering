@@ -33,6 +33,7 @@ The two-lane changing lane scenario shown in the following figure is chosen as a
 
 ![steer](./src/steer.png)
 
+<img src="https://github.com/Chen-Yi-Ran/OnlineStudy/blob/master/file/course.jpg" width="210px">
 
 
 
