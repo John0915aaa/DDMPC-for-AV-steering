@@ -31,7 +31,7 @@ The two-lane changing lane scenario shown in the following figure is chosen as a
 
 ![doublelane](./src/doublelane.png)
 
-![steer](./src/steer.svg)
+![steer](./src/steer.png)
 
 
 
