@@ -37,7 +37,9 @@ Since the algorithm is mainly based on data, the source of data directly determi
 Based on the collected data, the corresponding Hankel matrices are constructed and used in the data-driven MPC. By choosing the appropriate weight matrix, constraining the upper and lower bounds, and predicting the time domain, the precise control of the vehicle can be accomplished.The following two figures represent the schematic diagram of the two-lane lane changing scenario and the front wheel angle change curve under the control of data-driven MPC, respectively.
 
 <div align=center>
-     ![3](https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/assets/141119265/5cb4ecf1-ce77-45fd-9589-3c492e2b465e)
+     
+![3](https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/assets/141119265/5cb4ecf1-ce77-45fd-9589-3c492e2b465e)
+     
 </div>
 
 <div align=center>
