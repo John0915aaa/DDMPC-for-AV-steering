@@ -37,8 +37,9 @@ Based on the collected data, the corresponding Hankel matrices are constructed a
 <div align=center>
 <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/double.png" width="700px">
 </div>
-
-![steer](./src/steer.png)
+<div align=center>
+     ![steer](https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/assets/141119265/6ba713f7-d92b-4bb9-8575-48e7a8494d35)
+</div>
 
 
 
