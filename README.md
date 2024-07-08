@@ -14,6 +14,7 @@ The development of autonomous vehicle technology relies on efficient and reliabl
 
 <div align=center>
 <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/flowchart.png" width="700px">
+</div>
 
 ## Methodology
 In the article, we give an introduction to Willems' lemma and then point out that Berberich et al. designed a data-driven MPC method based on it. Then, we modify this data-driven MPC so that it can be suitable for steering control of self-driving vehicles, and give the framework of the designed algorithm with a detailed description of the algorithm.
