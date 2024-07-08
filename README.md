@@ -1,9 +1,12 @@
 # Data-Driven Model Predictive Control for Autonomous Vehicle Steering
 
-These are the CarSim&amp;Simulink simulation experiments videos of Data-Driven MPC, PID and MPC.
+With the development of autonomous driving technology and the increasing demand for vehicle control, MPC has become a widely researched topic in industry and academia. However, the existing MPC control methods based on vehicle kinematics or dynamics face the challenges of difficult modeling, numerous parameters, strong nonlinearity, and high computational cost.
 
-In this case, the three videos demonstrate the effect of the three algorithms in the simulation from different viewpoints.
+Keywords: data-driven control, autonomous vehicle steering, model predictive control, path tracking
 
-The red car is DDMPC, the blue car is PID, and the green car is MPC for vehicle kinematics.The three algorithms are traveling at a fixed speed of 36km/h.
+**[Jiarui Zhang](https://tops.tongji.edu.cn/info/1132/1815.htm)**  
+[Department of Traffic Engineering and Key Laboratory of Road and Traffic Engineering, Ministry of Education, Tongji University](https://tops.tongji.edu.cn/)  
 
-If you have any questions about our paper and experiment results, please contact us at the e-mail address in the paper.
+**[[Project web](https://fangshiyuu.github.io/AWSW-PG/)]**
+
+If you have any questions, feel free to contact us (zjr0915@tongji.edu.cn).
