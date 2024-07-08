@@ -47,7 +47,11 @@ In order to verify the superiority of the designed algorithm, we compare it with
 <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/error.png" width="400px">  <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/time.png" width="400px">
 </div>
 
+In addition, in order to compare the differences between the algorithms more clearly, we have intercepted videos of the three algorithms running in CarSim, as shown below. 
 
+<div align=center>
+| <video muted controls width=380> <source src="./src/back.mp4"  type="video/mp4"> </video> | | <video muted controls width=380> <source src="./src/lateral.mp4"  type="video/mp4"> </video> |
+</div>
 
 
 
