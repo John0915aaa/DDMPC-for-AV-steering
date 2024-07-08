@@ -32,22 +32,42 @@ Since the algorithm is mainly based on data, the source of data directly determi
 
 ### Algorithm Simulation Experiment 
 
-In order to verify the superiority of the designed algorithm, we compare it with the more common PID with vehicle kinematics MPC. Simulation experiments are carried out in the same scene with the same speed, and the trajectory tracking effect, tracking error and computational time consumption of the three algorithms are obtained as shown below.
-
-<div align=center>
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/tra.png">
-      
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/error.png" width="400x">  <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/time.png" width="400x">
-</div>
-
-
-
 Based on the collected data, the corresponding Hankel matrices are constructed and used in the data-driven MPC. By choosing the appropriate weight matrix, constraining the upper and lower bounds, and predicting the time domain, the precise control of the vehicle can be accomplished.The following two figures represent the schematic diagram of the two-lane lane changing scenario and the front wheel angle change curve under the control of data-driven MPC, respectively.
 
 <div align=center>
 <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/double.png" width="700px">
 <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/steer.png" width="700px">
 </div>
+
+In order to verify the superiority of the designed algorithm, we compare it with the more common PID with vehicle kinematics MPC. Simulation experiments are carried out in the same scene with the same speed, and the trajectory tracking effect, tracking error and computational time consumption of the three algorithms are obtained as shown below.
+
+<div align=center>
+<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/tra.png">
+      
+<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/error.png" width="400px">  <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/time.png" width="400px">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
