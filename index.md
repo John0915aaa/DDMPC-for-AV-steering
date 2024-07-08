@@ -26,7 +26,9 @@ Since the algorithm is mainly based on data, the source of data directly determi
 
 ![scenario](https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/assets/141119265/1c6672a5-7f4e-4e98-96f3-a6adc48e900c)
 
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/assets/141119265/1cd261fe-121d-4f52-af54-6881dba98bf4" alt="carmodel" width="700"/>
+<div style="text-align: center;">
+  <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/assets/141119265/1cd261fe-121d-4f52-af54-6881dba98bf4" alt="carmodel" width="700"/>
+</div>
 
 
 <div align=center>
