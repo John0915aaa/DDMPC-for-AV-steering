@@ -26,7 +26,16 @@ Since the algorithm is mainly based on data, the source of data directly determi
 
 ![drivermodel](./src/drivermodel.png)
 
-In the closed-loop algorithm simulation verification stage, the collected data was preprocessed to remove outliers and interpolate sparse data points. The Data-Driven MPC algorithm was then tested in a dual-lane switching scenario, with the results compared against PID and vehicle kinematics MPC control algorithms. The simulations showed that the DDMPC algorithm provided smooth steering angles, maintaining vehicle stability and comfort while quickly responding to emergency lane changes. The comparative analysis demonstrated that the DDMPC algorithm ensured more accurate trajectory tracking with smaller error variations and significantly reduced computation time compared to the vehicle kinematics MPC algorithm. This highlighted the practical value and superiority of the proposed DDMPC algorithm in real-world driving scenarios.
+Based on the collected data, the corresponding Hankel matrices are constructed and used in the data-driven MPC. By choosing the appropriate weight matrix, constraining the upper and lower bounds, and predicting the time domain, the precise control of the vehicle can be accomplished.
+The two-lane changing lane scenario shown in the following figure is chosen as an experimental case, and the front wheel angle change of the vehicle under the control of the data-driven MPC is shown in the second figure.
+
+
+
+
+
+
+
+
 
 ### Ablation experiment on the Shapley value
 In order to facilitate the reader to understand how Shapley value is constantly changing in the process of cooperation, we use the shade of color to represent the value of the Shapley value. More specifically, the closer the color of the vehicle is to purple, the higher its Shapley value is at this moment. This indicates that the vehicle currently has a greater impact on the system. Conversely, lighter colors indicate weaker impacts on the system. Additionally, each car's normalized Shapley value is displayed next to it. The cooperation case shown in Fig.5 in the paper is shown below  
