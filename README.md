@@ -37,7 +37,7 @@ In order to verify the superiority of the designed algorithm, we compare it with
 <div align=center>
 <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/tra.png">
       
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/error.png" width="300x">  <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/time.png" width="300x">
+<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/error.png" width="450x">  <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/time.png" width="450x">
 </div>
 
 
