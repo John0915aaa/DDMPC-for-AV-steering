@@ -26,16 +26,14 @@ Since the algorithm is mainly based on data, the source of data directly determi
 <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/scenario.png" width="500px">         <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/carmodel.png" width="500x">
 </div>
 
-
-Based on the collected data, the corresponding Hankel matrices are constructed and used in the data-driven MPC. By choosing the appropriate weight matrix, constraining the upper and lower bounds, and predicting the time domain, the precise control of the vehicle can be accomplished.
-The two-lane changing lane scenario shown in the following figure is chosen as an experimental case, and the front wheel angle change of the vehicle under the control of the data-driven MPC is shown in the second figure.
-
-![doublelane](./src/doublelane.png)
+Based on the collected data, the corresponding Hankel matrices are constructed and used in the data-driven MPC. By choosing the appropriate weight matrix, constraining the upper and lower bounds, and predicting the time domain, the precise control of the vehicle can be accomplished.The following two figures represent the schematic diagram of the two-lane lane changing scenario and the front wheel angle change curve under the control of data-driven MPC, respectively.
 
 <div align=center>
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/steer.png" width="500px">
+<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/doublelane.png" width="800px">
+      
+<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/steer.png" width="600px">
 
-
+</div>
 
 
 ### Ablation experiment on the Shapley value
