@@ -24,15 +24,10 @@ In the article, we give an introduction to Willems' lemma and then point out tha
 ### 1. Data Acquisition 
 Since the algorithm is mainly based on data, the source of data directly determines the effectiveness of the algorithm. The open-loop input-output data acquisition of the vehicle in the simulation environment is accomplished by building a scene in CarSim and selecting a D-class vehicle and a driver model that can realize unbiased turning.The scenario and vehicle model are shown in the following figure.
 
-<div align=center>
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/1.png" width="300px"> <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/2.png" width="300px"> 
-</div>
+![1](https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/assets/141119265/852b2a6e-62aa-42c4-a421-8abfb5faaa4c)
 
+![2](https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/assets/141119265/c5e7b064-4126-46e5-8673-033f528aa5dc)
 
-<div align=center>
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/scenario.png" width="700px">
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/carmodel.png" width="700px">
-</div>
 
 ### 2. Algorithm Simulation Experiment 
 
