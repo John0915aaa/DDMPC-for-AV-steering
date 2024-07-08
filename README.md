@@ -33,7 +33,7 @@ The two-lane changing lane scenario shown in the following figure is chosen as a
 
 ![steer](./src/steer.png)
 
-<img src="https://github.com/Chen-Yi-Ran/OnlineStudy/blob/master/file/course.jpg" width="210px">
+<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/steer.png" width="210px">
 
 
 
