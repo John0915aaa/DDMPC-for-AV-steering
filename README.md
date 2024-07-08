@@ -12,7 +12,7 @@ With the development of autonomous driving technology, there are increasing dema
 
 The development of autonomous vehicle technology relies on efficient and reliable control algorithms. Early control algorithms primarily depended on PID controllers, which often fell short in complex and dynamic driving environments. MPC stands out due to its ability to calculate high-precision control inputs within a limited prediction horizon based on the vehicle model and reference trajectory. However, traditional vehicle models, especially dynamic ones, are challenging to model and calibrate, often leading to significant computational costs. To address this, our proposed Data-Driven MPC for autonomous vehicle steering control leverages the Hankel matrix constructed from offline input-output trajectory data, bypassing the need for complex system models and enhancing prediction accuracy and computational efficiency.
 
-![flowchart](./src/flowchart.pdf)
+![flowchart](./src/flowchart.png)
 
 ## Experiments
 Multiple experiments are conducted, including an ablation experiment on the Shapley value in a purely CAV environment, a comparison of efficiency and safety under different Rates of Penetration (ROP), and the significance test after heterogeneous HDVs involved. Here we focus on a supplementary explanation of the results of the study and present them in a more intuitive manner (especially via .MP4). For further knowledge acquisition, please refer to [arXiv]().
