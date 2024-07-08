@@ -21,7 +21,7 @@ In the article, we give an introduction to Willems' lemma and then point out tha
 
 ## Experiments
 
-### Data Acquisition 
+### 1. Data Acquisition 
 Since the algorithm is mainly based on data, the source of data directly determines the effectiveness of the algorithm. The open-loop input-output data acquisition of the vehicle in the simulation environment is accomplished by building a scene in CarSim and selecting a D-class vehicle and a driver model that can realize unbiased turning.The scenario and vehicle model are shown in the following figure.
 
 <div align=center>
@@ -30,13 +30,14 @@ Since the algorithm is mainly based on data, the source of data directly determi
 </div>
 
 
-### Algorithm Simulation Experiment 
+### 2. Algorithm Simulation Experiment 
 
 Based on the collected data, the corresponding Hankel matrices are constructed and used in the data-driven MPC. By choosing the appropriate weight matrix, constraining the upper and lower bounds, and predicting the time domain, the precise control of the vehicle can be accomplished.The following two figures represent the schematic diagram of the two-lane lane changing scenario and the front wheel angle change curve under the control of data-driven MPC, respectively.
 
 <div align=center>
 <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/double.png" width="700px">
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/steer.png" width="700px">
+![steer](https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/assets/141119265/33f07893-eaba-4d0c-b69c-173123df1afa)
+
 </div>
 
 In order to verify the superiority of the designed algorithm, we compare it with the more common PID with vehicle kinematics MPC. Simulation experiments are carried out in the same scene with the same speed, and the trajectory tracking effect, tracking error and computational time consumption of the three algorithms are obtained as shown below.
@@ -49,9 +50,8 @@ In order to verify the superiority of the designed algorithm, we compare it with
 
 In addition, in order to compare the differences between the algorithms more clearly, we have intercepted videos of the three algorithms running in CarSim, as shown below. 
 
-<div align=center>
-<video muted controls width=380> <source src="./src/back.mp4"  type="video/mp4"> </video> <video muted controls width=380> <source src="./src/lateral.mp4"  type="video/mp4"> </video>
-</div>
+<video muted controls> <source src="./src/back.mp4"  type="video/mp4"> </video>
+<video muted controls> <source src="./src/lateral.mp4"  type="video/mp4"> </video>
 
 
 
