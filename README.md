@@ -7,6 +7,6 @@ Keywords: data-driven control, autonomous vehicle steering, model predictive con
 **[Jiarui Zhang](https://tops.tongji.edu.cn/info/1132/1815.htm)**  
 [Department of Traffic Engineering and Key Laboratory of Road and Traffic Engineering, Ministry of Education, Tongji University](https://tops.tongji.edu.cn/)  
 
-**[[Project web]([https://john0915aaa.github.io/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/])**
+**[[Project web](https://john0915aaa.github.io/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/)]**
 
 If you have any questions, feel free to contact us (zjr0915@tongji.edu.cn).
