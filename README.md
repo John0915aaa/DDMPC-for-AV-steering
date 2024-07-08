@@ -22,7 +22,7 @@ Since the algorithm is mainly based on data, the source of data directly determi
 
 ![scenario](./src/scenario.png)
 
-[](<img src="https://github.com/FanGShiYuu/AWSW-PG/blob/pages/src/IRLAlgorithm.png" width="620px">)
+[](<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/scenario.png" width="300px">)
 
 In the closed-loop algorithm simulation verification stage, the collected data was preprocessed to remove outliers and interpolate sparse data points. The Data-Driven MPC algorithm was then tested in a dual-lane switching scenario, with the results compared against PID and vehicle kinematics MPC control algorithms. The simulations showed that the DDMPC algorithm provided smooth steering angles, maintaining vehicle stability and comfort while quickly responding to emergency lane changes. The comparative analysis demonstrated that the DDMPC algorithm ensured more accurate trajectory tracking with smaller error variations and significantly reduced computation time compared to the vehicle kinematics MPC algorithm. This highlighted the practical value and superiority of the proposed DDMPC algorithm in real-world driving scenarios.
 
