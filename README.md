@@ -13,7 +13,7 @@ With the development of autonomous driving technology, there are increasing dema
 The development of autonomous vehicle technology relies on efficient and reliable control algorithms. Early control algorithms primarily depended on PID controllers, which often fell short in complex and dynamic driving environments. MPC stands out due to its ability to calculate high-precision control inputs within a limited prediction horizon based on the vehicle model and reference trajectory. However, traditional vehicle models, especially dynamic ones, are challenging to model and calibrate, often leading to significant computational costs. To address this, our proposed Data-Driven MPC for autonomous vehicle steering control leverages the Hankel matrix constructed from offline input-output trajectory data, bypassing the need for complex system models and enhancing prediction accuracy and computational efficiency.
 
 <div align=center>
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/flowchart.png" width="700px">
+[](<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/flowchart.png" width="700px">)
 </div>
 
 ## Methodology
@@ -25,8 +25,8 @@ In the article, we give an introduction to Willems' lemma and then point out tha
 Since the algorithm is mainly based on data, the source of data directly determines the effectiveness of the algorithm. The open-loop input-output data acquisition of the vehicle in the simulation environment is accomplished by building a scene in CarSim and selecting a D-class vehicle and a driver model that can realize unbiased turning.The scenario and vehicle model are shown in the following figure.
 
 <div align=center>
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/scenario.png" width="700px">
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/carmodel.png" width="700x">
+[](<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/scenario.png" width="700px">)
+[](<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/carmodel.png" width="700x">)
 </div>
 
 
@@ -35,16 +35,16 @@ Since the algorithm is mainly based on data, the source of data directly determi
 Based on the collected data, the corresponding Hankel matrices are constructed and used in the data-driven MPC. By choosing the appropriate weight matrix, constraining the upper and lower bounds, and predicting the time domain, the precise control of the vehicle can be accomplished.The following two figures represent the schematic diagram of the two-lane lane changing scenario and the front wheel angle change curve under the control of data-driven MPC, respectively.
 
 <div align=center>
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/double.png" width="700px">
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/steer.png" width="700px">
+[](<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/double.png" width="700px">)
+[](<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/steer.png" width="700px">)
 </div>
 
 In order to verify the superiority of the designed algorithm, we compare it with the more common PID with vehicle kinematics MPC. Simulation experiments are carried out in the same scene with the same speed, and the trajectory tracking effect, tracking error and computational time consumption of the three algorithms are obtained as shown below.
 
 <div align=center>
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/tra.png">
+[](<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/tra.png">)
       
-<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/error.png" width="400px">  <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/time.png" width="400px">
+[](<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/error.png" width="400px">)  (<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/time.png" width="400px">)
 </div>
 
 In addition, in order to compare the differences between the algorithms more clearly, we have intercepted videos of the three algorithms running in CarSim, as shown below. 
