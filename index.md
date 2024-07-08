@@ -24,6 +24,10 @@ In the article, we give an introduction to Willems' lemma and then point out tha
 ### Data Acquisition 
 Since the algorithm is mainly based on data, the source of data directly determines the effectiveness of the algorithm. The open-loop input-output data acquisition of the vehicle in the simulation environment is accomplished by building a scene in CarSim and selecting a D-class vehicle and a driver model that can realize unbiased turning.The scenario and vehicle model are shown in the following figure.
 
+![scenario](https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/assets/141119265/1c6672a5-7f4e-4e98-96f3-a6adc48e900c)
+
+![carmodel](https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/assets/141119265/1cd261fe-121d-4f52-af54-6881dba98bf4)
+
 <div align=center>
 <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/scenario.png" width="700px">
 <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/carmodel.png" width="700px">
