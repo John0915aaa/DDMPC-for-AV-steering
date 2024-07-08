@@ -20,7 +20,9 @@ In the article, we give an introduction to Willems' lemma and then point out tha
 ## Experiments
 Since the algorithm is mainly based on data, the source of data directly determines the effectiveness of the algorithm. The open-loop input-output data acquisition of the vehicle in the simulation environment is accomplished by building a scene in CarSim and selecting a D-class vehicle and a driver model that can realize unbiased turning.The CarSim scene, vehicle and driver model are shown in the following figure.
 
-![flowchart](./src/flowchart.png)
+![scenario](./src/scenario.png)
+
+[](<img src="https://github.com/FanGShiYuu/AWSW-PG/blob/pages/src/IRLAlgorithm.png" width="620px">)
 
 In the closed-loop algorithm simulation verification stage, the collected data was preprocessed to remove outliers and interpolate sparse data points. The Data-Driven MPC algorithm was then tested in a dual-lane switching scenario, with the results compared against PID and vehicle kinematics MPC control algorithms. The simulations showed that the DDMPC algorithm provided smooth steering angles, maintaining vehicle stability and comfort while quickly responding to emergency lane changes. The comparative analysis demonstrated that the DDMPC algorithm ensured more accurate trajectory tracking with smaller error variations and significantly reduced computation time compared to the vehicle kinematics MPC algorithm. This highlighted the practical value and superiority of the proposed DDMPC algorithm in real-world driving scenarios.
 
