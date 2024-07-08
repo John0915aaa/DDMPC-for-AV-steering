@@ -43,7 +43,9 @@ Based on the collected data, the corresponding Hankel matrices are constructed a
 </div>
 
 <div align=center>
-     <img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/assets/141119265/6ba713f7-d92b-4bb9-8575-48e7a8494d35">
+     
+<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/assets/141119265/6ba713f7-d92b-4bb9-8575-48e7a8494d35">
+
 </div>
 
 In order to verify the superiority of the designed algorithm, we compare it with the more common PID with vehicle kinematics MPC. Simulation experiments are carried out in the same scene with the same speed, and the trajectory tracking effect, tracking error and computational time consumption of the three algorithms are obtained as shown below.
