@@ -20,13 +20,11 @@ The development of autonomous vehicle technology relies on efficient and reliabl
 In the article, we give an introduction to Willems' lemma and then point out that Berberich et al. designed a data-driven MPC method based on it. Then, we modify this data-driven MPC so that it can be suitable for steering control of self-driving vehicles, and give the framework of the designed algorithm with a detailed description of the algorithm.
 
 ## Experiments
-Since the algorithm is mainly based on data, the source of data directly determines the effectiveness of the algorithm. The open-loop input-output data acquisition of the vehicle in the simulation environment is accomplished by building a scene in CarSim and selecting a D-class vehicle and a driver model that can realize unbiased turning.The CarSim scene, vehicle and driver model are shown in the following figure.
+Since the algorithm is mainly based on data, the source of data directly determines the effectiveness of the algorithm. The open-loop input-output data acquisition of the vehicle in the simulation environment is accomplished by building a scene in CarSim and selecting a D-class vehicle and a driver model that can realize unbiased turning.The scenario and vehicle model are shown in the following figure.
 
-![scenario](./src/scenario.png)
+<img src="https://github.com/John0915aaa/Data-Driven-Model-Predictive-Control-for-Autonomous-Vehicle-Steering/blob/pages/src/scenario.png" width="400px">
 
-![carmodel](./src/carmodel.png)
 
-![drivermodel](./src/drivermodel.png)
 
 Based on the collected data, the corresponding Hankel matrices are constructed and used in the data-driven MPC. By choosing the appropriate weight matrix, constraining the upper and lower bounds, and predicting the time domain, the precise control of the vehicle can be accomplished.
 The two-lane changing lane scenario shown in the following figure is chosen as an experimental case, and the front wheel angle change of the vehicle under the control of the data-driven MPC is shown in the second figure.
