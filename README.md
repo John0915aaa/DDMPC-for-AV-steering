@@ -14,9 +14,15 @@ The development of autonomous vehicle technology relies on efficient and reliabl
 
 ![flowchart](./src/flowchart.png)
 
-## Experiments
-Multiple experiments are conducted, including an ablation experiment on the Shapley value in a purely CAV environment, a comparison of efficiency and safety under different Rates of Penetration (ROP), and the significance test after heterogeneous HDVs involved. Here we focus on a supplementary explanation of the results of the study and present them in a more intuitive manner (especially via .MP4). For further knowledge acquisition, please refer to [arXiv]().
+## Methodology
+In the article, we give an introduction to Willems' lemma and then point out that Berberich et al. designed a data-driven MPC method based on it. Then, we modify this data-driven MPC so that it can be suitable for steering control of self-driving vehicles, and give the framework of the designed algorithm with a detailed description of the algorithm.
 
+## Experiments
+Since the algorithm is mainly based on data, the source of data directly determines the effectiveness of the algorithm. The open-loop input-output data acquisition of the vehicle in the simulation environment is accomplished by building a scene in CarSim and selecting a D-class vehicle and a driver model that can realize unbiased turning.The CarSim scene, vehicle and driver model are shown in the following figure.
+
+![flowchart](./src/flowchart.png)
+
+In the closed-loop algorithm simulation verification stage, the collected data was preprocessed to remove outliers and interpolate sparse data points. The Data-Driven MPC algorithm was then tested in a dual-lane switching scenario, with the results compared against PID and vehicle kinematics MPC control algorithms. The simulations showed that the DDMPC algorithm provided smooth steering angles, maintaining vehicle stability and comfort while quickly responding to emergency lane changes. The comparative analysis demonstrated that the DDMPC algorithm ensured more accurate trajectory tracking with smaller error variations and significantly reduced computation time compared to the vehicle kinematics MPC algorithm. This highlighted the practical value and superiority of the proposed DDMPC algorithm in real-world driving scenarios.
 
 ### Ablation experiment on the Shapley value
 In order to facilitate the reader to understand how Shapley value is constantly changing in the process of cooperation, we use the shade of color to represent the value of the Shapley value. More specifically, the closer the color of the vehicle is to purple, the higher its Shapley value is at this moment. This indicates that the vehicle currently has a greater impact on the system. Conversely, lighter colors indicate weaker impacts on the system. Additionally, each car's normalized Shapley value is displayed next to it. The cooperation case shown in Fig.5 in the paper is shown below  
